@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Looker Studio Dashboard</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: #f0f2f5;
+        }
+        .iframe-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        iframe {
+            transform: scale(0.85); /* Adjust this value to fit perfectly */
+            transform-origin: top left;
+            width: 1200px;  /* Set to your dashboard's original size */
+            height: 800px;  /* Set to your dashboard's original size */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe src="https://lookerstudio.google.com/embed/reporting/e41a1e26-47f3-473f-a5a8-80625a5a1510/page/P8oGF" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
